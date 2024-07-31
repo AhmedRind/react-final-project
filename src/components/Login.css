@@ -1,0 +1,34 @@
+.Login {
+  background-color: black;
+  width: 45vw;
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+
+  @media(max-width: 900px) {
+    width: 100%
+}
+  @media(max-height: 450px) {
+    height: fit-content;
+    padding-bottom: 15px;
+}
+}
+
+.Login_Form{
+  width: 350px;
+  height: auto;
+  border: 2px solid gray;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px
+}
+
+.Login_Divider{
+  border: none;
+  border-top: 2px solid gray ;
+}
+

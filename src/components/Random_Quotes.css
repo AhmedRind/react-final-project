@@ -1,0 +1,29 @@
+.random_quotes{
+  background-color: black;
+  width: 45vw;
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+
+  @media(max-width: 900px) {
+    width: 100%
+}
+@media(max-height: 450px) {
+  height: fit-content;
+  padding-bottom: 15px;
+}
+
+
+  
+}
+.Body_Items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  gap: 2rem;
+  
+}
+.Get_Quotes{
+  display: inline-block;
+}

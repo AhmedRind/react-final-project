@@ -1,0 +1,45 @@
+.User_Quotes {
+  background-color: black;
+  width: 45vw;
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+
+  @media(max-width: 900px) {
+    width: 100%
+  }
+
+  @media(max-height: 600px) {
+    height: fit-content;
+    padding-bottom: 15px;
+  }
+
+}
+
+
+.User_RandomQuotes {
+  height: 35vh;
+  overflow: hidden;
+}
+
+.User_RandomQuotes ul {
+  padding-left: 20px; 
+}
+
+.User_QuotesMain {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.User_Quotes .Form{
+  width: auto;
+  display: inline-block;
+}
+
+.Search_Quote,
+.Save_Quote{
+  display: flex;
+  justify-content: space-around;
+}

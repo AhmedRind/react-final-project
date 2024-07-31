@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  
+  
+}
+.Get_Quotes, .Login_Btn, .Search_Btn, .Save_Btn{
+  text-align: center;
+  color: white;
+  background-color: #265707;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 25px ;
+}
+.Signup_Btn{
+  text-align: center;
+  color: white;
+  background-color: #4140a0;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 25px ;
+}
